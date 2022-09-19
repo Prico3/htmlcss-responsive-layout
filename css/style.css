@@ -1,0 +1,16 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+html{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+}
+
+img{
+    max-width: 100%;
+}
