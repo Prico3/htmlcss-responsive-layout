@@ -7,7 +7,10 @@
 
 :root{
     /* dimensions */
+    --padding: 1em;
     --pad-top: 1em;
+
+    --margin-top: 1em;
 
     /* colors */
     --primary-col: #0084fd;
@@ -47,12 +50,27 @@ img{
 .header-wrapper{
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding: var(--padding);
 
 }
 
 header nav{
     display: none;
+}
+
+
+
+/* first section */
+.first-section{
+    padding: var(--padding);
+}
+
+.col{
+    margin-top: var(--margin-top);
+}
+
+.card{
+    background-color: var(--primary-col-light);    
 }
 
 
@@ -66,19 +84,29 @@ header nav{
     /* tablet 768px*/
 @media screen and (min-width: 768px){
 
+    /* common */
+
+    /* layout */
+    .wrapper .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .wrapper .col{
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .wrapper .col:first-child{
+        width: calc(100% / 3 * 2 - 1rem);
+    }
+
 }
 
 
     /* desktop 992*/
 @media screen and (min-width: 992px) {
     /* common */
-
-    /* layout */
-    .header-wrapper{
-        width: 70%;
-        margin: 0 auto;
-    }
-
     header .menu i{
         display: none;
     }
@@ -86,6 +114,13 @@ header nav{
     header nav{
         display: block;
     }
+
+    /* layout */
+    .header-wrapper{
+        width: 70%;
+        margin: 0 auto;
+    }
+
 
 
 }
