@@ -102,6 +102,25 @@ header nav{
     text-align: center;
 }
 
+/* third section */
+#third-section{
+    padding: var(--padding);
+    text-align: center;
+}
+
+#third-section div{
+    margin-top: 3em;
+}
+
+#third-section .card{
+    background-color: var(--secondary-col);
+    color: white;
+    padding: 0.5em;
+    border-radius: 20px;
+}
+
+
+
 
 
 
@@ -133,6 +152,11 @@ header nav{
         width: calc(100% / 3 * 2 - 1rem);
     }
 
+    #third-section .card{
+        display: flex;
+        align-items: center;
+    }
+  
 }
 
 
