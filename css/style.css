@@ -13,6 +13,7 @@
 
     --margin: 0 auto;
     --margin-top: 1em;
+    --margin-left: 1em;
 
     --widht: 70%;
 
@@ -41,6 +42,12 @@ img{
     display: flex;
 }
 
+.btn{
+    padding: var(--padding);
+    border-radius: 50px;
+    border: none;
+}
+
 
 
 
@@ -62,6 +69,13 @@ img{
 header nav{
     display: none;
 }
+
+header ul li{
+    list-style-type: none;
+    margin-left: var(--margin-left);
+    line-height: 4;
+}
+
 
 
 
