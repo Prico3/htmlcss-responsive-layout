@@ -119,6 +119,35 @@ header nav{
     border-radius: 20px;
 }
 
+/* fourth section */
+#fourth-section{
+    padding: var(--padding);
+    background-color: var(--secondary-col);
+}
+#fourth-section h2{
+    text-align: center;
+    color: white;
+}
+#fourth-section .col{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: var(--margin-top);
+}
+
+#fourth-section .card{
+    padding: var(--padding);
+}
+
+#fourth-section h3, h4{
+    color: var(--secondary-col);
+}
+
+#fourth-section *{
+    margin-bottom: 1em;
+}
+
+
+
 
 
 
@@ -156,7 +185,17 @@ header nav{
         display: flex;
         align-items: center;
     }
-  
+    
+    #fourth-section .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+    #fourth-section .col{
+        width: calc(100% / 2 - 1em);
+    }
+
 }
 
 
@@ -187,6 +226,16 @@ header nav{
         width: var(--widht);
         display: flex;
         gap: 3em;
+    }
+
+    .wrapper-third-section{
+        margin: var(--margin);
+        width: var(--widht);
+
+    }
+
+    #fourth-section .col{
+        width: calc(100% / 3 - 1em);
     }
 
 
