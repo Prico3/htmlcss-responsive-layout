@@ -167,16 +167,34 @@ header ul li{
     text-align: center;
 }
 
-#third-section div{
-    margin-top: 3em;
-}
 
 #third-section .card{
     background-color: var(--secondary-col);
     color: white;
     padding: 0.5em;
     border-radius: 20px;
+    margin-top: 2em;
 }
+
+#third-section img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30vw;
+    width: 30vw;
+}
+
+#third-section .text *{
+    margin-top: var(--margin-top);
+}
+#third-section .text-card *{
+    margin-top: var(--margin-top);
+
+}
+
+#third-section h2{
+    color: var(--secondary-col);
+}
+
 
 /* fourth section */
 #fourth-section{
@@ -286,6 +304,12 @@ header ul li{
         display: flex;
         align-items: center;
     }
+
+    #third-section .text-card *{
+        margin-left: var(--margin-left);
+        text-align: left;
+    }
+    
     
     #fourth-section .row{
         display: flex;
