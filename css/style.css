@@ -9,6 +9,7 @@
     /* dimensions */
     --padding: 1em;
     --pad-top: 1em;
+    --pad-left: 1em;
 
     --margin: 0 auto;
     --margin-top: 1em;
@@ -146,6 +147,28 @@ header nav{
     margin-bottom: 1em;
 }
 
+/* fifth section */
+#fifth-section{
+    padding: var(--padding);
+}
+
+#fifth-section div{
+    margin-top: var(--margin-top);
+}
+
+#fifth-section img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#fifth-section h2{
+    color: var(--secondary-col);
+}
+
+#fifth-section .img *{
+    margin-top: var(--margin-top);
+}
 
 
 
@@ -196,6 +219,13 @@ header nav{
         width: calc(100% / 2 - 1em);
     }
 
+    .wrapper-fifth-section{
+        display: flex;
+    }
+    .wrapper-fifth-section div{
+        padding-left: var(--pad-left);
+    }
+
 }
 
 
@@ -234,9 +264,22 @@ header nav{
 
     }
 
+    .wrapper-fourth-section{
+        margin: var(--margin);
+        width: var(--widht);
+    }
+
+    
     #fourth-section .col{
         width: calc(100% / 3 - 1em);
     }
+    
+    .wrapper-fifth-section{
+        margin: var(--margin);
+        width: var(--widht);
+
+    }
+    
 
 
 
