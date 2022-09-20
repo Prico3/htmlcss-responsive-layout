@@ -53,6 +53,10 @@ button:hover{
     background-color: var(--primary-col-light);
 }
 
+a{
+    color: inherit;
+}
+
 
 
 
@@ -272,6 +276,11 @@ header ul li{
 
 /* FOOTER */
 
+.wrapper-top-footer *,
+.wrapper-bottom-footer *{
+    margin-top: var(--margin-top);
+}
+
 .wrapper-top-footer{
     background-color: var(--secondary-col);
     color: white;
@@ -282,12 +291,28 @@ header ul li{
     color: white;
 }
 
+.top-footer h2{
+    font-size: xx-large
+}
+
+.top-footer h2{
+    color: yellow;
+}
+
+.top-footer button{
+    color: var(--secondary-col);
+}
+
 .top-footer,
 .bottom-footer{
     padding: var(--padding);
     text-align: center;
     width: 40%;
     margin: 0 auto;
+}
+
+.bottom-footer a{
+    color: var(--secondary-col);
 }
 
 
