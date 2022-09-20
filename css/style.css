@@ -171,6 +171,26 @@ header nav{
 }
 
 
+/* FOOTER */
+
+.wrapper-top-footer{
+    background-color: var(--secondary-col);
+    color: white;
+}
+
+.wrapper-bottom-footer{
+    background-color: grey;
+    color: white;
+}
+
+.top-footer,
+.bottom-footer{
+    padding: var(--padding);
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
 
 
 
