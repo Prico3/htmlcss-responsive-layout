@@ -46,6 +46,11 @@ img{
     padding: var(--padding);
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--primary-col-light);
 }
 
 
@@ -84,13 +89,35 @@ header ul li{
     padding: var(--padding);
 }
 
+
+
 #first-section .col{
     margin-top: var(--margin-top);
+    background-color: var(--primary-col-light);  
+    border-radius: 20px 
 }
 
 #first-section .card{
-    background-color: var(--primary-col-light);    
+    padding: var(--padding);
+    text-align: center;
 }
+
+#first-section button{
+    margin: 20px 0;
+    background-color: var(--primary-col);
+    color: white;
+    font-size: medium;
+}
+
+#first-section h3{
+    color: var(--primary-col);
+}
+
+.big{
+    font-size: 4rem;
+    color: var(--primary-col);
+}
+
 
 /* second section */
 
@@ -224,17 +251,17 @@ header ul li{
     /* common */
 
     /* layout */
-    .wrapper .row{
+    .wrapper-first-section .row{
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
     }
 
-    .wrapper .col{
+    .wrapper-first-section .col{
         width: calc(100% / 3 - 1rem);
     }
 
-    .wrapper .col:first-child{
+    .wrapper-first-section .col:first-child{
         width: calc(100% / 3 * 2 - 1rem);
     }
 
@@ -283,6 +310,14 @@ header ul li{
     .wrapper-first-section{
         margin: var(--margin);
         width: var(--widht);
+    }
+
+    .wrapper-first-section .special{
+        display: flex;
+    }
+
+    .special img{
+        width: calc(100% / 2);
     }
 
     .wrapper-second-section{
