@@ -201,9 +201,14 @@ header ul li{
     padding: var(--padding);
     background-color: var(--secondary-col);
 }
+
+#fourth-section *{
+    margin-top: var(--margin-top);
+}
 #fourth-section h2{
     text-align: center;
     color: white;
+    font-size: xx-large;
 }
 #fourth-section .col{
     background-color: white;
@@ -217,10 +222,17 @@ header ul li{
 
 #fourth-section h3, h4{
     color: var(--secondary-col);
+    font-size: x-large;
 }
 
 #fourth-section *{
     margin-bottom: 1em;
+}
+
+#fourth-section .btn{
+    background-color: #9792e4;
+    color: white;
+    width: 200px;
 }
 
 /* fifth section */
