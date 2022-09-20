@@ -258,6 +258,17 @@ header ul li{
     margin-top: var(--margin-top);
 }
 
+#fifth-section .text *{
+    margin-top: var(--margin-top);
+}
+
+
+#fifth-section button{
+    line-height: 4;
+    padding: 0 0.5em;
+    color: white;
+    background-color: var(--secondary-col);
+}
 
 /* FOOTER */
 
